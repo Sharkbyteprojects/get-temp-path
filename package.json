@@ -9,5 +9,9 @@
   },
   "author": "Sharkbyteprojects",
   "license": "ISC",
-  "gypfile": true
+  "gypfile": true,
+  "repository": {
+    "url": "https://github.com/Sharkbyteprojects/get-temp-path.git",
+    "type": "git"
+  }
 }
