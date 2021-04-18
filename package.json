@@ -1,0 +1,13 @@
+{
+  "name": "get-temp-path",
+  "version": "1.0.0",
+  "description": "Get the path of the tmp dir and can optionally generate a random file name (+tmp path)",
+  "main": "js.js",
+  "scripts": {
+    "install": "node oscheck||node-gyp rebuild",
+	"test": "node -e \"console.log(\\\"Temp Dir Path: \\\"+require(\\\"./js\\\")()+\\\"\\nTemp File Path: \\\"+require(\\\"./js\\\")(true));\""
+  },
+  "author": "Sharkbyteprojects",
+  "license": "ISC",
+  "gypfile": true
+}
