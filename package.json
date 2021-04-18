@@ -1,6 +1,6 @@
 {
   "name": "get-temp-path",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "Get the path of the tmp dir and can optionally generate a random file name (+tmp path)",
   "main": "js.js",
   "scripts": {
@@ -13,5 +13,6 @@
   "repository": {
     "url": "https://github.com/Sharkbyteprojects/get-temp-path.git",
     "type": "git"
-  }
+  },
+  "keywords":["random","tmp","temp-path", "tmp-dir", "/tmp", "/tmp/{0}.tmp"]
 }
